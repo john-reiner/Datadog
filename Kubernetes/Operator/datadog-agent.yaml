@@ -12,6 +12,11 @@ spec:
       appSecret:
         secretName: datadog-secret
         keyName: app-key
+  features:
+    liveContainerCollection:
+      enabled: true
+    orchestratorExplorer:
+      enabled: true
   override:
     clusterAgent:
       image:
